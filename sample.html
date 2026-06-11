@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Concepts Demo</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="sample.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>HTML Complete Demo</h1>
+      <p>Demonstrating Major HTML Concepts</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#lists">Lists</a>
+      <a href="#table">Table</a>
+      <a href="#form">Form</a>
+      <a href="#media">Media</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- About Section -->
+      <section id="about">
+        <h2>Text Formatting</h2>
+
+        <p>
+          This is a <strong>strong</strong> text, <em>emphasized</em> text,
+          <mark>highlighted</mark> text, <u>underlined</u> text, and
+          <del>deleted</del> text.
+        </p>
+
+        <blockquote>
+          "Learning HTML is the first step toward becoming a web developer."
+        </blockquote>
+
+        <p>
+          Visit
+          <a href="https://www.example.com" target="_blank">
+            Example Website
+          </a>
+        </p>
+      </section>
+
+      <!-- Lists Section -->
+      <article id="lists">
+        <h2>Lists Example</h2>
+
+        <h3>Ordered List</h3>
+        <ol>
+          <li>Learn HTML</li>
+          <li>Learn CSS</li>
+          <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+          <li>Frontend Development</li>
+          <li>Backend Development</li>
+          <li>Database Management</li>
+        </ul>
+      </article>
+
+      <!-- Image Section -->
+      <section>
+        <h2>Image Example</h2>
+
+        <img
+          src="image.png"
+          alt="Sample Placeholder Image"
+        />
+
+        <p>A sample responsive image.</p>
+      </section>
+
+      <!-- Table Section -->
+      <section id="table">
+        <h2>Table Example</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Course</th>
+              <th>Marks</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Alice</td>
+              <td>HTML</td>
+              <td>95</td>
+            </tr>
+
+            <tr>
+              <td>Bob</td>
+              <td>CSS</td>
+              <td>90</td>
+            </tr>
+
+            <tr>
+              <td>Charlie</td>
+              <td>JavaScript</td>
+              <td>88</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Form Section -->
+      <section id="form">
+        <h2>Registration Form</h2>
+
+        <form action="#" method="post">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter password"
+            required
+          />
+
+          <label>Gender</label>
+
+          <div>
+            <input type="radio" id="male" name="gender" value="male" />
+
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" />
+
+            <label for="female">Female</label>
+          </div>
+
+          <label>Skills</label>
+
+          <div>
+            <input type="checkbox" id="html" name="skills" value="html" />
+
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css" name="skills" value="css" />
+
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="js" name="skills" value="javascript" />
+
+            <label for="js">JavaScript</label>
+          </div>
+
+          <label for="country">Country</label>
+
+          <select id="country" name="country">
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Canada</option>
+          </select>
+
+          <label for="message">Message</label>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Enter your message"
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <!-- Media Section -->
+      <section id="media">
+        <h2>Audio & Video</h2>
+
+        <h3>Audio Example</h3>
+
+        <audio controls>
+          <source src="sample.mp3" type="audio/mpeg" />
+          Your browser does not support audio.
+        </audio>
+
+        <br /><br />
+
+        <h3>Video Example</h3>
+
+        <video controls width="500">
+          <source src="sample.mp4" type="video/mp4" />
+          Your browser does not support video.
+        </video>
+      </section>
+
+      <!-- Aside -->
+      <aside>
+        <h3>Related Information</h3>
+
+        <p>
+          HTML provides the structure of a webpage, CSS handles presentation and
+          styling, while JavaScript adds interactivity.
+        </p>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 HTML Concepts Demo. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
