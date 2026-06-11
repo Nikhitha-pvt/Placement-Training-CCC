@@ -1,8 +1,8 @@
 # 🚀 Placement Preparation Repository
 
-This is my Placement Preparation Repository! 🎯
+This is my Placement Preparation Repository by CCC! 🎯
 
-This repository contains all the resources, notes, code, and practice material that I'm using to prepare for placements.
+This repository contains all the resources, notes, code, and practice material.
 
 ## 📚 Contents
 
